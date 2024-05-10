@@ -6,7 +6,16 @@ else:
 
 i = 0
 suma = 0
-cantidad = int(input('Cantidad de notas: '))
+cantidad = input('Cantidad de notas: ')
+pos = cantidad.find('.')
+if pos != -1:
+    print('Chaooo')
+else:
+    if cantidad.isnumeric() == 'False':
+        print('Chaoo')
+    else:
+        cantidad = int(cantidad)
+        
 while i < cantidad:
     nota = float(input('Nota '+str(i+1)+' : '))
     if nota >= 1 and nota <= 7:
