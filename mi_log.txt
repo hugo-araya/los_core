@@ -1,0 +1,3 @@
+2024-05-30 20:24:55.886221 Iniciando registro de errores
+2024-05-30 20:24:55.886245 ERROR: True
+2024-05-30 20:24:55.886247 Fin del registro de errores
