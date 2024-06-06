@@ -78,19 +78,39 @@ def funcion_h(datos):
             suma = suma + 1
     return suma
 
-def muestra_datos(sismo_mayor, sismos_7_8, sismos_8_9, sismos_9, sismo_16, sismo_17, sismo_18, sismo_19):
-    print(sismo_mayor)
-    print(sismos_7_8)
-    print(sismos_8_9)
-    print(sismos_9)
-    print(sismo_16)
-    print(sismo_17)
-    print(sismo_18)
-    print(sismo_19)
+def funcion_i(datos):
+    suma = 0
+    for lista in datos:
+        fecha = lista[0]
+        fecha = fecha.split('/')
+        if float(fecha[2]) >= 1900 and float(fecha[2]) < 2000:
+            suma = suma + 1
+    return suma
+
+def funcion_k(datos):
+    suma = 0
+    for lista in datos:
+        fecha = lista[0]
+        fecha = fecha.split('/')
+        if float(fecha[2]) >= 2000:
+            suma = suma + 1
+    return suma
+
+def muestra_datos(sismo_mayor, sismos_7_8, sismos_8_9, sismos_9, sismo_16, sismo_17, sismo_18, sismo_19, sismo_20, sismo_21):
+    print("Fecha:", sismo_mayor[0],"y hora:", sismo_mayor[1],"del mayor sismo registrado\n")
+    print("Cantidad de sismos >= 7.0 y < 8.0:",sismos_7_8,"\n")
+    print("Cantidad de sismos >= 8.0 y < 9.0:",sismos_8_9,"\n" )
+    print("Cantidad de sismos >= 9.0:", sismos_9, "\n")
+    print("Cantidad de sismos siglo 16:", sismo_16, "\n")
+    print("Cantidad de sismos siglo 17:", sismo_17, "\n")
+    print("Cantidad de sismos siglo 18:", sismo_18, "\n")
+    print("Cantidad de sismos siglo 19:", sismo_19, "\n")
+    print("Cantidad de sismos siglo 20:", sismo_20, "\n")
+    print("Cantidad de sismos siglo 21:", sismo_21, "\n")
 
 def grafica(y):
-    x = [16, 17, 18, 19]
-    plt.pie(y)
+    x = [16, 17, 18, 19, 20, 21]
+    plt.bar(x, y)
     plt.show()
 
 if __name__ == '__main__':
@@ -103,5 +123,7 @@ if __name__ == '__main__':
     sismo_17 = funcion_f(datos)
     sismo_18 = funcion_g(datos)
     sismo_19 = funcion_h(datos)
-    muestra_datos(sismo_mayor, sismos_7_8, sismos_8_9, sismos_9, sismo_16, sismo_17, sismo_18, sismo_19)
-    grafica([sismo_16, sismo_17, sismo_18, sismo_19])
+    sismo_20 = funcion_i(datos)
+    sismo_21 = funcion_k(datos)
+    muestra_datos(sismo_mayor, sismos_7_8, sismos_8_9, sismos_9, sismo_16, sismo_17, sismo_18, sismo_19, sismo_20, sismo_21)
+    grafica([sismo_16, sismo_17, sismo_18, sismo_19, sismo_20, sismo_21])
