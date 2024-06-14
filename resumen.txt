@@ -1,0 +1,18 @@
+Promedio 2013 : 494.9951612903225
+
+Promedio 2014 : 570.0059036144578
+
+Promedio 2015 : 654.2489999999999
+
+Promedio 2016 : 676.8324206349209
+
+Promedio 2017 : 649.3287854251013
+
+Promedio 2018 : 640.2907723577235
+
+Promedio 2019 : 672.6411320754718
+
+El mayor valor corresponde al dia 18 del mes ene de 2016
+
+El menor valor corresponde al dia 10 del mes abr de 2013
+
