@@ -1,0 +1,48 @@
+Autor(es): nnnnnnnn - nnnnnnnn
+
+Cantidad de aves muertas por region:
+
+	Arica y Parinacota: 31825
+
+	Antofagasta: 24263
+
+	Tarapaca: 4882
+
+	Atacama: 8157
+
+	Coquimbo: 5221
+
+	Maule: 3274
+
+	Valparaiso: 7353
+
+	O´Higgins: 1134
+
+	nuble: 301
+
+	Biobio: 6325
+
+	Araucania: 25
+
+	Los Rios: 666
+
+	Los Lagos: 62
+
+	Magallanes: 282
+
+	Iquique: 2
+
+	Aysen: 9
+
+	Taltal: 179
+
+	Tocopilla: 107
+
+	AricaParinacota: 10
+
+Casos aves muertas mes enero del año 2023: 5738
+
+En la comuna de Cartagena se detectaron 2 Taguas muertas
+
+Las muertes detectadas para el 12 de febrero 2023 de la especie Piquero son: 31
+
